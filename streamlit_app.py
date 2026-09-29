@@ -3,12 +3,9 @@ App Streamlit · Radar de Risco de Defasagem (Passos Mágicos)
 
 Estima a probabilidade de um aluno estar EM DEFASAGEM no ano seguinte a partir dos indicadores
 do ano corrente. Ferramenta de apoio à priorização; não substitui a avaliação da equipe.
-
-Execução local:  streamlit run app/streamlit_app.py
 """
 import io
 import json
-import sys
 from pathlib import Path
 
 import joblib
@@ -16,9 +13,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-RAIZ = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(RAIZ))
-from src.features import FEATURES, faixa_risco, prepara_features  # noqa: E402
+from features import FEATURES, faixa_risco, prepara_features  # noqa: E402
+
+RAIZ = Path(__file__).resolve().parent
 
 st.set_page_config(page_title="Radar de Risco · Passos Mágicos", page_icon="🧭", layout="wide")
 
@@ -34,12 +31,12 @@ FASES = {0: "Alfa", 1: "Fase 1", 2: "Fase 2", 3: "Fase 3", 4: "Fase 4", 5: "Fase
 # --------------------------------------------------------------------------- modelo
 @st.cache_resource(show_spinner="Carregando modelo…")
 def carrega_modelo():
-    meta = json.loads((RAIZ / "models/metadata.json").read_text())
+    meta = json.loads((RAIZ / "metadata.json").read_text())
     try:
-        return joblib.load(RAIZ / "models/modelo_risco.joblib"), meta
+        return joblib.load(RAIZ / "modelo_risco.joblib"), meta
     except Exception:  # versão do scikit-learn diferente da usada no treino: re-treina em segundos
-        from src.treino import treina_modelo
-        pares = pd.read_csv(RAIZ / "data/processed/pares_modelo.csv")
+        from treino import treina_modelo
+        pares = pd.read_csv(RAIZ / "pares_modelo.csv")
         return treina_modelo(pares, meta["hiperparametros"]), meta
 
 
