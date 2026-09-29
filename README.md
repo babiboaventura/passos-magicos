@@ -45,18 +45,3 @@ streamlit run app/streamlit_app.py    # abre o app localmente
   persistência simples ("quem está defasado hoje continua defasado").
 - Detalhes completos, comparação de modelos e interpretação: ver o notebook.
 
-## Deploy no Streamlit Community Cloud
-
-1. Suba este repositório no GitHub (inclua `data/processed/`, `models/` e `requirements.txt`).
-2. Em [share.streamlit.io](https://share.streamlit.io), aponte para `app/streamlit_app.py` como arquivo principal.
-3. Não é necessário configurar segredos — o app é 100% local ao repositório.
-
-## Entregáveis do Datathon
-
-| Item | Onde está |
-|---|---|
-| Link do GitHub | *a publicar* |
-| Apresentação (storytelling) | `reports/apresentacao.pptx` (a gerar) |
-| Notebook do modelo preditivo | `notebooks/modelo_risco_defasagem.ipynb` |
-| App Streamlit + deploy | `app/streamlit_app.py` |
-| Vídeo (até 5 min) | *a gravar pelo grupo* |
