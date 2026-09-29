@@ -1,4 +1,4 @@
-# Datathon Passos Mágicos — Fase 5 PosTech
+# Datathon Passos Mágicos
 
 Análise de dados (2022–2024), storytelling e modelo preditivo de risco de defasagem escolar
 para a Associação Passos Mágicos.
@@ -27,21 +27,3 @@ python src/analise.py                 # gera reports/figuras e reports/tabelas
 jupyter nbconvert --to notebook --execute --inplace notebooks/modelo_risco_defasagem.ipynb
 streamlit run app/streamlit_app.py    # abre o app localmente
 ```
-
-## Principais decisões de limpeza (ver docstring de `src/limpeza.py`)
-
-- As 3 abas têm nomes de colunas diferentes (`Defas` × `Defasagem`, `Matem` × `Mat`) — harmonizadas em um schema único.
-- Em 2024 a coluna `Fase` traz a **turma** (ex. `"3A"`), não a fase — extraída da primeira letra/dígito.
-- 38 alunos formados em 2024 vêm com indicadores placeholder (`INCLUIR`, IEG = 0) — excluídos das análises de indicadores.
-- Em 2023, 399 idades vieram corrompidas (datas seriais do Excel, ex. `1900-01-08` = 8 anos) — corrigidas.
-- Defasagem recalculada como `fase − fase ideal` (2 linhas de 2024 divergiam do valor original da planilha).
-- Fórmula do INDE confirmada por regressão (R² = 1,0 em 2023/2024): 10% IAN + 20% IDA + 20% IEG + 10% IAA + 10% IPS + 10% IPP + 20% IPV.
-
-## Modelo preditivo (pergunta 9)
-
-- **Alvo:** aluno em defasagem (fase < fase ideal) no ano seguinte.
-- **Dados:** 1.306 pares aluno-ano (2022→2023 e 2023→2024), separação treino/teste **agrupada por aluno**.
-- **Modelo:** Gradient Boosting calibrado. AUC = 0,90 no teste (0,88 em validação temporal), contra 0,70 de uma regra de
-  persistência simples ("quem está defasado hoje continua defasado").
-- Detalhes completos, comparação de modelos e interpretação: ver o notebook.
-
