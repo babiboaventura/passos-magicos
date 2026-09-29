@@ -1,0 +1,960 @@
+{
+ "q1": {
+  "n": {
+   "2022": 860,
+   "2023": 1014,
+   "2024": 1118
+  },
+  "pct": {
+   "2022": {
+    "Adequado (≥ 0)": 30.1,
+    "Moderada (-1 a -2)": 66.6,
+    "Severa (≤ -3)": 3.3
+   },
+   "2023": {
+    "Adequado (≥ 0)": 45.6,
+    "Moderada (-1 a -2)": 53.1,
+    "Severa (≤ -3)": 1.4
+   },
+   "2024": {
+    "Adequado (≥ 0)": 52.2,
+    "Moderada (-1 a -2)": 47.5,
+    "Severa (≤ -3)": 0.3
+   }
+  },
+  "contagem": {
+   "2022": {
+    "Adequado (≥ 0)": 259,
+    "Moderada (-1 a -2)": 573,
+    "Severa (≤ -3)": 28
+   },
+   "2023": {
+    "Adequado (≥ 0)": 462,
+    "Moderada (-1 a -2)": 538,
+    "Severa (≤ -3)": 14
+   },
+   "2024": {
+    "Adequado (≥ 0)": 584,
+    "Moderada (-1 a -2)": 531,
+    "Severa (≤ -3)": 3
+   }
+  },
+  "coorte3_n": 468,
+  "coorte3_defas_media": {
+   "2022": -0.85,
+   "2023": -0.66,
+   "2024": -0.23
+  },
+  "coorte3_pct_defasado": {
+   "2022": 67.3,
+   "2023": 58.1,
+   "2024": 34.8
+  },
+  "trans_2022_2023": {
+   "n": 600,
+   "melhorou": 30.8,
+   "igual": 51.8,
+   "piorou": 17.3
+  },
+  "trans_2023_2024": {
+   "n": 752,
+   "melhorou": 39.9,
+   "igual": 42.6,
+   "piorou": 17.6
+  },
+  "pct_defasado_fase": {
+   "2022": {
+    "0.0": 63.7,
+    "1.0": 84.4,
+    "2.0": 71.6,
+    "3.0": 55.4,
+    "4.0": 65.8,
+    "5.0": 73.3,
+    "6.0": 83.3,
+    "7.0": 76.2,
+    "8.0": NaN
+   },
+   "2023": {
+    "0.0": 50.6,
+    "1.0": 76.3,
+    "2.0": 62.0,
+    "3.0": 47.7,
+    "4.0": 47.9,
+    "5.0": 63.1,
+    "6.0": 72.7,
+    "7.0": 26.1,
+    "8.0": 0.0
+   },
+   "2024": {
+    "0.0": 75.0,
+    "1.0": 70.8,
+    "2.0": 37.3,
+    "3.0": 26.1,
+    "4.0": 55.7,
+    "5.0": 56.0,
+    "6.0": 48.0,
+    "7.0": 0.0,
+    "8.0": 0.0
+   }
+  }
+ },
+ "q2": {
+  "media": {
+   "2022": 6.09,
+   "2023": 6.66,
+   "2024": 6.35
+  },
+  "ic95": {
+   "2022": 0.14,
+   "2023": 0.1,
+   "2024": 0.13
+  },
+  "delta_2022_2023": {
+   "n": 574,
+   "media": 0.12,
+   "p": 0.07881201951363569,
+   "pct_caiu": 35.0,
+   "pct_subiu": 36.1
+  },
+  "delta_2023_2024": {
+   "n": 682,
+   "media": -0.48,
+   "p": 5.479131465773299e-11,
+   "pct_caiu": 44.6,
+   "pct_subiu": 29.6
+  },
+  "promovido": {
+   "n": 501,
+   "delta": -0.74
+  },
+  "nao_promovido": {
+   "n": 181,
+   "delta": 0.26
+  }
+ },
+ "q3": {
+  "spearman": {
+   "2022": {
+    "ieg_ida": 0.51,
+    "ieg_ipv": 0.54
+   },
+   "2023": {
+    "ieg_ida": 0.45,
+    "ieg_ipv": 0.49
+   },
+   "2024": {
+    "ieg_ida": 0.52,
+    "ieg_ipv": 0.55
+   }
+  },
+  "faixas": {
+   "< 6": {
+    "n": 288,
+    "ida": 4.18,
+    "ipv": 6.25,
+    "inde": 5.71,
+    "pct_defasado": 0.68
+   },
+   "6–7,5": {
+    "n": 448,
+    "ida": 5.4,
+    "ipv": 7.01,
+    "inde": 6.61,
+    "pct_defasado": 0.66
+   },
+   "7,5–8,5": {
+    "n": 610,
+    "ida": 6.2,
+    "ipv": 7.42,
+    "inde": 7.11,
+    "pct_defasado": 0.65
+   },
+   "8,5–9,5": {
+    "n": 920,
+    "ida": 6.91,
+    "ipv": 7.84,
+    "inde": 7.64,
+    "pct_defasado": 0.57
+   },
+   "≥ 9,5": {
+    "n": 587,
+    "ida": 7.53,
+    "ipv": 8.25,
+    "inde": 8.12,
+    "pct_defasado": 0.47
+   }
+  }
+ },
+ "q4": {
+  "por_ano": {
+   "2022": {
+    "iaa": 8.27,
+    "ida": 6.09,
+    "ieg": 7.89,
+    "gap": 2.18,
+    "superestima": 52.56,
+    "subestima": 4.53
+   },
+   "2023": {
+    "iaa": 6.9,
+    "ida": 6.66,
+    "ieg": 8.7,
+    "gap": 0.25,
+    "superestima": 36.28,
+    "subestima": 20.5
+   },
+   "2024": {
+    "iaa": 8.54,
+    "ida": 6.35,
+    "ieg": 8.08,
+    "gap": 2.19,
+    "superestima": 52.13,
+    "subestima": 2.37
+   }
+  },
+  "spearman": {
+   "2022": {
+    "iaa_ida": 0.18,
+    "iaa_ieg": 0.23
+   },
+   "2023": {
+    "iaa_ida": 0.13,
+    "iaa_ieg": 0.19
+   },
+   "2024": {
+    "iaa_ida": 0.18,
+    "iaa_ieg": 0.23
+   }
+  },
+  "faixa_ida": {
+   "< 4": {
+    "n": 387,
+    "iaa": 7.48,
+    "ida": 2.9,
+    "iaa_alto": 63.31
+   },
+   "4–6": {
+    "n": 749,
+    "iaa": 7.7,
+    "ida": 5.2,
+    "iaa_alto": 66.22
+   },
+   "6–8": {
+    "n": 1130,
+    "iaa": 7.97,
+    "ida": 7.09,
+    "iaa_alto": 72.39
+   },
+   "> 8": {
+    "n": 586,
+    "iaa": 8.44,
+    "ida": 8.8,
+    "iaa_alto": 81.74
+   }
+  }
+ },
+ "q5": {
+  "p_qui2_faixa_ips": {
+   "2022": {
+    "queda_ida": 0.93,
+    "queda_ieg": 0.38
+   },
+   "2023": {
+    "queda_ida": 0.63,
+    "queda_ieg": 0.56
+   }
+  },
+  "spearman_ips_variacao": {
+   "2022": {
+    "ips_dida": 0.029,
+    "ips_dieg": -0.024
+   },
+   "2023": {
+    "ips_dida": 0.027,
+    "ips_dieg": 0.033
+   }
+  },
+  "antecedentes": {
+   "ida": {
+    "queda_ida": -0.41,
+    "queda_ieg": -0.0
+   },
+   "ieg": {
+    "queda_ida": -0.1,
+    "queda_ieg": -0.31
+   },
+   "iaa": {
+    "queda_ida": -0.01,
+    "queda_ieg": 0.09
+   },
+   "ips": {
+    "queda_ida": 0.06,
+    "queda_ieg": 0.1
+   },
+   "ipv": {
+    "queda_ida": -0.18,
+    "queda_ieg": -0.09
+   },
+   "idade": {
+    "queda_ida": 0.04,
+    "queda_ieg": 0.0
+   },
+   "fase": {
+    "queda_ida": 0.1,
+    "queda_ieg": 0.01
+   },
+   "defasagem": {
+    "queda_ida": 0.11,
+    "queda_ieg": 0.03
+   }
+  },
+  "ips_dist": {
+   "2022": {
+    "mean": 6.9,
+    "pct_75": 58.3,
+    "pct_baixo": 0.1
+   },
+   "2023": {
+    "mean": 5.1,
+    "pct_75": 30.7,
+    "pct_baixo": 27.9
+   },
+   "2024": {
+    "mean": 6.8,
+    "pct_75": 50.1,
+    "pct_baixo": 5.5
+   }
+  },
+  "queda_ida_pct": {
+   "2022": 22.0,
+   "2023": 34.3
+  },
+  "queda_ieg_pct": {
+   "2022": 9.5,
+   "2023": 32.6
+  },
+  "dips_2022_2023": {
+   "n": 570,
+   "rho_dida": 0.05,
+   "rho_dieg": 0.03
+  },
+  "dips_2023_2024": {
+   "n": 678,
+   "rho_dida": 0.01,
+   "rho_dieg": 0.03
+  }
+ },
+ "q6": {
+  "por_nivel": {
+   "Adequado (≥ 0)": {
+    "n": 908,
+    "ipp": 7.68,
+    "ida": 6.67
+   },
+   "Moderada (-1 a -2)": {
+    "n": 1067,
+    "ipp": 7.46,
+    "ida": 6.37
+   },
+   "Severa (≤ -3)": {
+    "n": 17,
+    "ipp": 7.01,
+    "ida": 5.1
+   }
+  },
+  "alto_baixo": {
+   "0.0": {
+    "n": 908.0,
+    "ipp_medio": 7.7,
+    "pct_ipp_alto": 71.5,
+    "pct_ipp_baixo": 9.8
+   },
+   "1.0": {
+    "n": 1084.0,
+    "ipp_medio": 7.5,
+    "pct_ipp_alto": 61.0,
+    "pct_ipp_baixo": 14.5
+   }
+  },
+  "spearman": {
+   "2023": {
+    "ipp_defasagem": 0.17,
+    "ipp_ida": 0.34,
+    "ipp_ieg": 0.29,
+    "ipp_ipv": 0.51
+   },
+   "2024": {
+    "ipp_defasagem": 0.19,
+    "ipp_ida": 0.42,
+    "ipp_ieg": 0.43,
+    "ipp_ipv": 0.71
+   }
+  }
+ },
+ "q7": {
+  "regressao_padronizada": {
+   "2022": {
+    "beta": {
+     "ida": 0.4,
+     "ieg": 0.34,
+     "iaa": 0.05,
+     "ips": 0.12
+    },
+    "r2": 0.48,
+    "n": 860
+   },
+   "2023": {
+    "beta": {
+     "ida": 0.31,
+     "ieg": 0.21,
+     "iaa": 0.06,
+     "ips": 0.03,
+     "ipp": 0.35
+    },
+    "r2": 0.46,
+    "n": 931
+   },
+   "2024": {
+    "beta": {
+     "ida": 0.16,
+     "ieg": 0.2,
+     "iaa": -0.0,
+     "ips": -0.04,
+     "ipp": 0.61
+    },
+    "r2": 0.65,
+    "n": 1054
+   }
+  },
+  "delta_spearman": {
+   "2022_2023": {
+    "n": 570,
+    "d_ida": 0.32,
+    "d_ieg": 0.23,
+    "d_iaa": 0.09,
+    "d_ips": 0.06
+   },
+   "2023_2024": {
+    "n": 678,
+    "d_ida": 0.4,
+    "d_ieg": 0.28,
+    "d_iaa": 0.01,
+    "d_ips": -0.02,
+    "d_ipp": 0.35
+   }
+  },
+  "atingiu_pv_2022": {
+   "Não": {
+    "n": 747,
+    "ipv": 7.01,
+    "ieg": 7.72,
+    "ida": 5.82
+   },
+   "Sim": {
+    "n": 113,
+    "ipv": 8.86,
+    "ieg": 9.01,
+    "ida": 7.87
+   }
+  }
+ },
+ "q8": {
+  "formula": {
+   "ian": 0.1,
+   "ida": 0.2,
+   "ieg": 0.2,
+   "iaa": 0.1,
+   "ips": 0.1,
+   "ipp": 0.1,
+   "ipv": 0.2
+  },
+  "contribuicao": {
+   "ian": {
+    "topazio": 8.67,
+    "quartzo_agata": 6.19,
+    "diferenca": 2.48,
+    "peso": 0.1,
+    "contribuicao_inde": 0.25
+   },
+   "ida": {
+    "topazio": 8.16,
+    "quartzo_agata": 4.83,
+    "diferenca": 3.34,
+    "peso": 0.2,
+    "contribuicao_inde": 0.67
+   },
+   "ieg": {
+    "topazio": 9.41,
+    "quartzo_agata": 7.12,
+    "diferenca": 2.29,
+    "peso": 0.2,
+    "contribuicao_inde": 0.46
+   },
+   "iaa": {
+    "topazio": 8.99,
+    "quartzo_agata": 6.34,
+    "diferenca": 2.65,
+    "peso": 0.1,
+    "contribuicao_inde": 0.26
+   },
+   "ips": {
+    "topazio": 6.72,
+    "quartzo_agata": 5.54,
+    "diferenca": 1.18,
+    "peso": 0.1,
+    "contribuicao_inde": 0.12
+   },
+   "ipp": {
+    "topazio": 8.13,
+    "quartzo_agata": 7.01,
+    "diferenca": 1.13,
+    "peso": 0.1,
+    "contribuicao_inde": 0.11
+   },
+   "ipv": {
+    "topazio": 8.46,
+    "quartzo_agata": 6.87,
+    "diferenca": 1.6,
+    "peso": 0.2,
+    "contribuicao_inde": 0.32
+   }
+  },
+  "n_fortes": {
+   "0": {
+    "n": 445,
+    "inde": 6.3,
+    "pct_topazio": 0.2
+   },
+   "1": {
+    "n": 575,
+    "inde": 7.2,
+    "pct_topazio": 8.9
+   },
+   "2": {
+    "n": 382,
+    "inde": 7.7,
+    "pct_topazio": 29.3
+   },
+   "3": {
+    "n": 391,
+    "inde": 8.1,
+    "pct_topazio": 59.1
+   },
+   "4": {
+    "n": 192,
+    "inde": 8.5,
+    "pct_topazio": 84.9
+   }
+  },
+  "combos_top": [
+   {
+    "combinacao": "IDA + IEG + IPV",
+    "n": 121,
+    "inde": 8.31,
+    "pct_topazio": 78.51
+   },
+   {
+    "combinacao": "IDA + IEG + IPP",
+    "n": 52,
+    "inde": 8.18,
+    "pct_topazio": 65.38
+   },
+   {
+    "combinacao": "IDA + IEG",
+    "n": 89,
+    "inde": 7.97,
+    "pct_topazio": 49.44
+   },
+   {
+    "combinacao": "IEG + IPV + IPP",
+    "n": 205,
+    "inde": 7.88,
+    "pct_topazio": 46.34
+   }
+  ],
+  "ieg_sozinho": {
+   "combinacao": "IEG",
+   "n": 462,
+   "inde": 7.19,
+   "pct_topazio": 9.74
+  }
+ },
+ "q10": {
+  "pedra_pct": {
+   "2022": {
+    "Quartzo": 15.3,
+    "Ágata": 29.1,
+    "Ametista": 40.5,
+    "Topázio": 15.1
+   },
+   "2023": {
+    "Quartzo": 7.7,
+    "Ágata": 26.4,
+    "Ametista": 40.9,
+    "Topázio": 24.9
+   },
+   "2024": {
+    "Quartzo": 10.6,
+    "Ágata": 21.3,
+    "Ametista": 37.1,
+    "Topázio": 30.9
+   }
+  },
+  "inde_medio": {
+   "2022": 7.04,
+   "2023": 7.34,
+   "2024": 7.4
+  },
+  "coorte": {
+   "2022_2023": {
+    "n": 570,
+    "inde_ini": 7.26,
+    "inde_fim": 7.24,
+    "pct_subiu": 49.3
+   },
+   "2023_2024": {
+    "n": 678,
+    "inde_ini": 7.45,
+    "inde_fim": 7.4,
+    "pct_subiu": 50.4
+   },
+   "2022_2024": {
+    "n": 445,
+    "inde_ini": 7.38,
+    "inde_fim": 7.38,
+    "pct_subiu": 55.1
+   }
+  },
+  "transicao": {
+   "2022_2023": {
+    "n": 570,
+    "sobe": 24.4,
+    "igual": 51.2,
+    "desce": 24.4
+   },
+   "2023_2024": {
+    "n": 678,
+    "sobe": 24.2,
+    "igual": 50.0,
+    "desce": 25.8
+   }
+  },
+  "delta_por_pedra_inicial": {
+   "Quartzo": {
+    "count": 42,
+    "mean": 0.3305675279071431
+   },
+   "Ágata": {
+    "count": 152,
+    "mean": 0.10144699278092155
+   },
+   "Ametista": {
+    "count": 300,
+    "mean": -0.05615828809322163
+   },
+   "Topázio": {
+    "count": 184,
+    "mean": -0.2521620734693835
+   }
+  },
+  "delta_por_fase": {
+   "0.0": {
+    "n": 174,
+    "d_inde": -0.32,
+    "d_defas": -0.13
+   },
+   "1.0": {
+    "n": 138,
+    "d_inde": 0.03,
+    "d_defas": 0.37
+   },
+   "2.0": {
+    "n": 153,
+    "d_inde": -0.28,
+    "d_defas": 0.65
+   },
+   "3.0": {
+    "n": 94,
+    "d_inde": 0.13,
+    "d_defas": 0.22
+   },
+   "4.0": {
+    "n": 64,
+    "d_inde": 0.36,
+    "d_defas": 0.48
+   },
+   "5.0": {
+    "n": 41,
+    "d_inde": 0.38,
+    "d_defas": -0.05
+   },
+   "6.0": {
+    "n": 14,
+    "d_inde": 0.72,
+    "d_defas": 0.57
+   }
+  },
+  "ganho_defasagem_medio": {
+   "2022_2023": 0.16,
+   "2023_2024": 0.25
+  }
+ },
+ "q11": {
+  "retencao": {
+   "2022_2023": {
+    "retencao": 69.8,
+    "n": 860,
+    "por_ieg": {
+     "IEG < 7": 42.3,
+     "IEG 7–8,5": 72.5,
+     "IEG > 8,5": 84.0
+    },
+    "por_instituicao": {
+     "Privada / bolsa": 88.0,
+     "Pública": 67.2
+    }
+   },
+   "2023_2024": {
+    "retencao": 74.2,
+    "n": 1014,
+    "por_ieg": {
+     "IEG < 7": 43.8,
+     "IEG 7–8,5": 66.9,
+     "IEG > 8,5": 80.8
+    },
+    "por_instituicao": {
+     "Concluiu / outro": 66.7,
+     "Privada / bolsa": 83.2,
+     "Pública": 72.1
+    }
+   }
+  },
+  "instituicao": [
+   {
+    "ano": 2022,
+    "instituicao": "Privada / bolsa",
+    "n": 108,
+    "pct_defasado": 44.0,
+    "inde": 7.7
+   },
+   {
+    "ano": 2022,
+    "instituicao": "Pública",
+    "n": 752,
+    "pct_defasado": 74.0,
+    "inde": 6.94
+   },
+   {
+    "ano": 2023,
+    "instituicao": "Concluiu / outro",
+    "n": 9,
+    "pct_defasado": 89.0,
+    "inde": 7.37
+   },
+   {
+    "ano": 2023,
+    "instituicao": "Privada / bolsa",
+    "n": 196,
+    "pct_defasado": 26.0,
+    "inde": 7.49
+   },
+   {
+    "ano": 2023,
+    "instituicao": "Pública",
+    "n": 809,
+    "pct_defasado": 61.0,
+    "inde": 7.32
+   },
+   {
+    "ano": 2024,
+    "instituicao": "Concluiu / outro",
+    "n": 7,
+    "pct_defasado": 56.99999999999999,
+    "inde": 7.27
+   },
+   {
+    "ano": 2024,
+    "instituicao": "Privada / bolsa",
+    "n": 197,
+    "pct_defasado": 11.0,
+    "inde": 7.97
+   },
+   {
+    "ano": 2024,
+    "instituicao": "Pública",
+    "n": 913,
+    "pct_defasado": 56.00000000000001,
+    "inde": 7.31
+   }
+  ],
+  "escolas_min": [
+   {
+    "Escola": "Universidade Santo Amaro (UNISA)",
+    "n": 32,
+    "pct_defasado": 0.0,
+    "inde": NaN,
+    "ida": NaN
+   }
+  ],
+  "escolas_max": [
+   {
+    "Escola": "EM Cecilia Cristina de Oliveira Rodrigues",
+    "n": 59,
+    "pct_defasado": 66.0,
+    "inde": 7.06,
+    "ida": 5.58
+   }
+  ],
+  "corr_idade_relativa_defasagem": {
+   "2022": -0.75,
+   "2023": -0.57,
+   "2024": -0.39
+  },
+  "genero_pct_defasado": {
+   "2022": {
+    "Feminino": 68.9,
+    "Masculino": 71.0
+   },
+   "2023": {
+    "Feminino": 49.8,
+    "Masculino": 59.8
+   },
+   "2024": {
+    "Feminino": 44.9,
+    "Masculino": 51.2
+   }
+  },
+  "qualidade": {
+   "formados_sem_avaliacao_2024": 38,
+   "sem_indicadores": {
+    "2022": 0,
+    "2023": 63,
+    "2024": 63
+   },
+   "idade_2023_corrompida": 399
+  }
+ },
+ "q9": {
+  "alvo": "Aluno em defasagem (fase < fase ideal) no ano seguinte",
+  "features": [
+   "ida",
+   "ieg",
+   "iaa",
+   "ips",
+   "ipv",
+   "ipp",
+   "defasagem",
+   "fase",
+   "idade",
+   "idade_relativa",
+   "gap_autoaval"
+  ],
+  "n_pares": 1306,
+  "n_alunos": 855,
+  "n_treino": 978,
+  "n_teste": 328,
+  "prevalencia_alvo": 0.516,
+  "hiperparametros": {
+   "l2_regularization": 2,
+   "learning_rate": 0.06,
+   "max_depth": 2,
+   "max_iter": 300,
+   "min_samples_leaf": 20
+  },
+  "metricas_teste": {
+   "auc": 0.904,
+   "pr_auc": 0.912,
+   "brier": 0.126,
+   "acuracia_limiar_050": 0.829,
+   "precisao_limiar_050": 0.828,
+   "recall_limiar_050": 0.847
+  },
+  "baseline_persistencia": {
+   "auc": 0.696,
+   "pr_auc": 0.644
+  },
+  "validacao_temporal_auc": 0.879,
+  "comparacao_cv_treino": [
+   {
+    "modelo": "Regra: continua defasado",
+    "AUC": 0.668,
+    "PR-AUC": 0.622,
+    "Brier": null
+   },
+   {
+    "modelo": "Regressão logística",
+    "AUC": 0.844,
+    "PR-AUC": 0.851,
+    "Brier": 0.161
+   },
+   {
+    "modelo": "Random Forest",
+    "AUC": 0.897,
+    "PR-AUC": 0.889,
+    "Brier": 0.132
+   },
+   {
+    "modelo": "Gradient Boosting",
+    "AUC": 0.892,
+    "PR-AUC": 0.889,
+    "Brier": 0.132
+   }
+  ],
+  "ablacao_auc": {
+   "Só variáveis estruturais (defasagem, fase, idade)": 0.855,
+   "Só indicadores (IDA, IEG, IAA, IPS, IPV, IPP)": 0.76,
+   "Modelo escolhido (estruturais + indicadores + engenharia)": 0.892,
+   "  + média/mínimo dos indicadores e IDA×IEG": 0.893,
+   "  + tempo no programa": 0.896,
+   "  + instituição pública/privada": 0.892,
+   "  + gênero": 0.893,
+   "Modelo escolhido sem IPP": 0.892
+  },
+  "faixas_risco": {
+   "Baixo": {
+    "alunos": 122.0,
+    "prob_media_prevista": 0.128,
+    "taxa_real_defasagem": 0.115
+   },
+   "Médio": {
+    "alunos": 73.0,
+    "prob_media_prevista": 0.513,
+    "taxa_real_defasagem": 0.521
+   },
+   "Alto": {
+    "alunos": 133.0,
+    "prob_media_prevista": 0.856,
+    "taxa_real_defasagem": 0.887
+   }
+  },
+  "adequados_hoje": {
+   "taxa_entram_defasagem": 0.237,
+   "auc": 0.873,
+   "captura_top30": 0.741
+  },
+  "importancia_permutacao": {
+   "fase": 0.0722,
+   "idade_relativa": 0.0584,
+   "defasagem": 0.0539,
+   "ipv": 0.0274,
+   "idade": 0.0232,
+   "ida": 0.0141,
+   "ips": 0.0091,
+   "ipp": 0.0058,
+   "ieg": 0.0037,
+   "gap_autoaval": 0.0008,
+   "iaa": -0.0007
+  },
+  "referencia_medianas": {
+   "ida": 6.9,
+   "ieg": 8.9,
+   "iaa": 8.8,
+   "ips": 6.9,
+   "ipv": 7.833,
+   "ipp": 7.708333333,
+   "defasagem": -1.0,
+   "fase": 2.0,
+   "idade": 11.0
+  }
+ }
+}

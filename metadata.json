@@ -1,0 +1,123 @@
+{
+ "alvo": "Aluno em defasagem (fase < fase ideal) no ano seguinte",
+ "features": [
+  "ida",
+  "ieg",
+  "iaa",
+  "ips",
+  "ipv",
+  "ipp",
+  "defasagem",
+  "fase",
+  "idade",
+  "idade_relativa",
+  "gap_autoaval"
+ ],
+ "n_pares": 1306,
+ "n_alunos": 855,
+ "n_treino": 978,
+ "n_teste": 328,
+ "prevalencia_alvo": 0.516,
+ "hiperparametros": {
+  "l2_regularization": 2,
+  "learning_rate": 0.06,
+  "max_depth": 2,
+  "max_iter": 300,
+  "min_samples_leaf": 20
+ },
+ "metricas_teste": {
+  "auc": 0.904,
+  "pr_auc": 0.912,
+  "brier": 0.126,
+  "acuracia_limiar_050": 0.829,
+  "precisao_limiar_050": 0.828,
+  "recall_limiar_050": 0.847
+ },
+ "baseline_persistencia": {
+  "auc": 0.696,
+  "pr_auc": 0.644
+ },
+ "validacao_temporal_auc": 0.879,
+ "comparacao_cv_treino": [
+  {
+   "modelo": "Regra: continua defasado",
+   "AUC": 0.668,
+   "PR-AUC": 0.622,
+   "Brier": null
+  },
+  {
+   "modelo": "Regressão logística",
+   "AUC": 0.844,
+   "PR-AUC": 0.851,
+   "Brier": 0.161
+  },
+  {
+   "modelo": "Random Forest",
+   "AUC": 0.897,
+   "PR-AUC": 0.889,
+   "Brier": 0.132
+  },
+  {
+   "modelo": "Gradient Boosting",
+   "AUC": 0.892,
+   "PR-AUC": 0.889,
+   "Brier": 0.132
+  }
+ ],
+ "ablacao_auc": {
+  "Só variáveis estruturais (defasagem, fase, idade)": 0.855,
+  "Só indicadores (IDA, IEG, IAA, IPS, IPV, IPP)": 0.76,
+  "Modelo escolhido (estruturais + indicadores + engenharia)": 0.892,
+  "  + média/mínimo dos indicadores e IDA×IEG": 0.893,
+  "  + tempo no programa": 0.896,
+  "  + instituição pública/privada": 0.892,
+  "  + gênero": 0.893,
+  "Modelo escolhido sem IPP": 0.892
+ },
+ "faixas_risco": {
+  "Baixo": {
+   "alunos": 122.0,
+   "prob_media_prevista": 0.128,
+   "taxa_real_defasagem": 0.115
+  },
+  "Médio": {
+   "alunos": 73.0,
+   "prob_media_prevista": 0.513,
+   "taxa_real_defasagem": 0.521
+  },
+  "Alto": {
+   "alunos": 133.0,
+   "prob_media_prevista": 0.856,
+   "taxa_real_defasagem": 0.887
+  }
+ },
+ "adequados_hoje": {
+  "taxa_entram_defasagem": 0.237,
+  "auc": 0.873,
+  "captura_top30": 0.741
+ },
+ "importancia_permutacao": {
+  "fase": 0.0722,
+  "idade_relativa": 0.0584,
+  "defasagem": 0.0539,
+  "ipv": 0.0274,
+  "idade": 0.0232,
+  "ida": 0.0141,
+  "ips": 0.0091,
+  "ipp": 0.0058,
+  "ieg": 0.0037,
+  "gap_autoaval": 0.0008,
+  "iaa": -0.0007
+ },
+ "referencia_medianas": {
+  "ida": 6.9,
+  "ieg": 8.9,
+  "iaa": 8.8,
+  "ips": 6.9,
+  "ipv": 7.833,
+  "ipp": 7.708333333,
+  "defasagem": -1.0,
+  "fase": 2.0,
+  "idade": 11.0
+ }
+}
